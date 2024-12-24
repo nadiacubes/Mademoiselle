@@ -1,0 +1,40 @@
+.trends-section{
+    padding: 6.9rem 0 9.7rem;
+    .trends-section-title{
+        margin-bottom: 2.8rem;
+        font-family: $playfair;
+    }
+
+    .trends-section-item{
+        position: relative;
+        margin-bottom: 6.9rem;
+        .trends-item-data-date{
+            font-size: 1.4rem;
+        }
+
+        .trends-item-title{
+            padding: 0 2.5rem 3rem;
+
+        }
+
+        .trends-item-data{
+            position: absolute;
+            left: 2.7rem;
+            right: 2.7rem;
+            top: 15.9rem;
+            background-color: #fff;
+            margin-bottom: 10rem;
+            
+            @media(min-width:576px){
+                top: 11rem;
+            }
+            
+             @media(min-width: 768px){
+                top: 15.9rem;
+            }
+
+           
+        }
+    }
+}
+

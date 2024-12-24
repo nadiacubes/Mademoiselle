@@ -1,0 +1,24 @@
+$pink: #ECD9D9;
+
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+$grid-gutter-width: 2.4rem;
+
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px 
+);
+
+$h1-font-size: 6rem;
+$h2-font-size: 3.6rem;
+$h3-font-size: 3rem;
+$h4-font-size: 1.6rem;
+
+$navbar-light-color: $pink;
+$navbar-light-hover-color: #000;
+$navbar-light-active-color: #000;

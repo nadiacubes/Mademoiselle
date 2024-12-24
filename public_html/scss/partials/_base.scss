@@ -1,0 +1,42 @@
+$body-font: $lato;
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: $body-font;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+h1, .h1{
+    font-family: $playfair;
+    line-height: 6.8rem;
+    font-size: 6rem;
+    text-align: center;
+}
+
+h2 .h2{
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+}
+
+h3, .h3{
+    font-size: 3rem;
+    line-height: 4.6rem;
+}
+
+h4, .h4{
+    line-height: 2.4rem;
+}
+
+.section-separator{
+        border: 2px solid $pink;
+        background-color: $pink;
+        width: 9.5rem;
+        display: block;
+        margin-bottom: 4.1rem;
+    }
+
+
