@@ -9472,7 +9472,9 @@ h4, .h4, .h4 {
   margin-bottom: 4.1rem; }
 
 .home-section {
-  padding: 25.2rem 0; }
+  padding: 25.2rem 0;
+  background-size: cover;
+  background-repeat: repeat; }
   .home-section .home-section-title {
     margin: 0 auto; }
 
@@ -9579,5 +9581,16 @@ header {
       @media (min-width: 992px) {
         .profesionals-section .profesionals-item .profesionals-item-data .profesionals-item-description {
           -webkit-line-clamp: 8; } }
+
+footer .social {
+  margin-bottom: 2.7rem; }
+  footer .social .social-icon {
+    text-decoration: none;
+    height: 2.1rem;
+    width: 2.569rem;
+    color: #ECD9D9;
+    margin-left: 3.225rem; }
+    footer .social .social-icon:first-of-type {
+      margin-left: 0px; }
 
 /*# sourceMappingURL=theme.css.map */

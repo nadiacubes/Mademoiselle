@@ -1,0 +1,18 @@
+$pink: #ECD9D9;
+
+footer{
+    .social{
+        margin-bottom: 2.7rem;
+        .social-icon{
+            text-decoration: none;
+            height: 2.1rem;
+            width: 2.569rem;
+            color: $pink;
+            margin-left: 3.225rem;
+            &:first-of-type{
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
