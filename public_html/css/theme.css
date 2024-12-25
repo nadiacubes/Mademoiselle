@@ -9515,11 +9515,12 @@ header {
     font-family: "Playfair", serif; }
   .trends-section .trends-section-item {
     position: relative;
-    margin-bottom: 6.9rem; }
+    margin-bottom: 10rem; }
     .trends-section .trends-section-item .trends-item-data-date {
       font-size: 1.4rem; }
     .trends-section .trends-section-item .trends-item-title {
-      padding: 0 2.5rem 3rem; }
+      padding: 0 2.5rem 3rem;
+      font-size: 1.6rem; }
     .trends-section .trends-section-item .trends-item-data {
       position: absolute;
       left: 2.7rem;
@@ -9621,5 +9622,21 @@ footer .copyright {
     @media (min-width: 992px) {
       .services-single-section .services-single-item .services-single-item-data .services-single-item-description {
         -webkit-line-clamp: 12; } }
+
+.trends-section .pagination {
+  display: block;
+  text-align: center;
+  margin-top: 9.3rem; }
+
+.trends-section .pagination a {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Lato", serif;
+  font-size: 2rem;
+  line-height: 4.6rem; }
+
+.trends-section .pagination a.active {
+  color: black; }
 
 /*# sourceMappingURL=theme.css.map */
