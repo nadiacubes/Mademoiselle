@@ -1,0 +1,32 @@
+$pink: #ECD9D9;
+$light-pink: #D0B6B666;
+
+.services-single-section{
+    margin-top: 4.9rem;
+    @media(min-width:992px){
+        margin-bottom: 15.9rem;
+    }
+    .services-single-section-title{
+        font-family: $playfair;
+        margin-bottom: 4.6rem;
+    }
+    .services-single-item{
+        .services-single-item-data{
+            .services-single-item-title{
+                margin-bottom: 1.7rem;
+                font-size: 3.6rem;
+            }
+            .services-single-item-description{
+                font-weight: 300;
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                @media(min-width: 992px){
+                    -webkit-line-clamp: 12;
+                }
+            }
+        }
+    }
+}
+

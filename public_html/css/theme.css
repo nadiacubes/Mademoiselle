@@ -9589,8 +9589,37 @@ footer .social {
     height: 2.1rem;
     width: 2.569rem;
     color: #ECD9D9;
-    margin-left: 3.225rem; }
+    margin-left: 3.225rem;
+    transition: 0.6s linear; }
     footer .social .social-icon:first-of-type {
       margin-left: 0px; }
+    footer .social .social-icon:hover {
+      transform: rotate(360deg); }
+
+footer .copyright {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  font-weight: 500; }
+
+.services-single-section {
+  margin-top: 4.9rem; }
+  @media (min-width: 992px) {
+    .services-single-section {
+      margin-bottom: 15.9rem; } }
+  .services-single-section .services-single-section-title {
+    font-family: "Playfair", serif;
+    margin-bottom: 4.6rem; }
+  .services-single-section .services-single-item .services-single-item-data .services-single-item-title {
+    margin-bottom: 1.7rem;
+    font-size: 3.6rem; }
+  .services-single-section .services-single-item .services-single-item-data .services-single-item-description {
+    font-weight: 300;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden; }
+    @media (min-width: 992px) {
+      .services-single-section .services-single-item .services-single-item-data .services-single-item-description {
+        -webkit-line-clamp: 12; } }
 
 /*# sourceMappingURL=theme.css.map */
