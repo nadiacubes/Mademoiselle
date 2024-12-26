@@ -9472,6 +9472,7 @@ h4, .h4, .h4 {
   margin-bottom: 4.1rem; }
 
 .home-section {
+  margin-bottom: 9.7rem;
   padding: 25.2rem 0;
   background-size: cover;
   background-repeat: repeat; }
@@ -9509,7 +9510,7 @@ header {
         padding: 0; } }
 
 .trends-section {
-  padding: 6.9rem 0 9.7rem; }
+  padding: 0 0 9.7rem; }
   .trends-section .trends-section-title {
     margin-bottom: 2.8rem;
     font-family: "Playfair", serif; }
@@ -9523,17 +9524,26 @@ header {
       font-size: 1.6rem; }
     .trends-section .trends-section-item .trends-item-data {
       position: absolute;
-      left: 2.7rem;
-      right: 2.7rem;
+      left: 7rem;
+      right: 7rem;
       top: 15.9rem;
       background-color: #fff;
       margin-bottom: 10rem; }
       @media (min-width: 576px) {
         .trends-section .trends-section-item .trends-item-data {
-          top: 11rem; } }
+          top: 11rem;
+          left: 1.5rem;
+          right: 1.5rem; } }
       @media (min-width: 768px) {
         .trends-section .trends-section-item .trends-item-data {
-          top: 15.9rem; } }
+          top: 15.9rem;
+          left: 2.7rem;
+          right: 2.7rem; } }
+    .trends-section .trends-section-item .single-trend-link {
+      text-decoration: none;
+      color: #000; }
+      .trends-section .trends-section-item .single-trend-link:hover {
+        color: #0d6efd; }
 
 .services-section {
   margin-bottom: 12.7rem; }
@@ -9612,9 +9622,9 @@ footer .copyright {
     margin-bottom: 4.6rem; }
   .services-single-section .services-single-item .services-single-item-data .services-single-item-title {
     margin-bottom: 1.7rem;
-    font-size: 3.6rem; }
+    font-size: 4.4rem;
+    line-height: 5.3rem; }
   .services-single-section .services-single-item .services-single-item-data .services-single-item-description {
-    font-weight: 300;
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
@@ -9638,5 +9648,118 @@ footer .copyright {
 
 .trends-section .pagination a.active {
   color: black; }
+
+.data-date p {
+  display: inline-block;
+  margin-left: 1.2rem;
+  line-height: 4.6rem;
+  font-size: 1.4rem; }
+  .data-date p:first-of-type {
+    margin-left: 0; }
+
+.single-blog-section {
+  padding: 0 5rem;
+  margin-bottom: 22.7rem; }
+  @media (min-width: 992px) {
+    .single-blog-section {
+      padding: 0 19rem; } }
+  .single-blog-section .single-blog-data {
+    margin-bottom: 4.7rem; }
+  .single-blog-section .tags .tags-title {
+    font-size: 1.4rem;
+    line-height: 4.6rem;
+    font-family: "Playfair", serif; }
+  .single-blog-section .tags .tags-items button {
+    margin-right: 1.2rem;
+    padding: 0.7rem 2.2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    background-color: #F5F5F5;
+    display: block; }
+    @media (min-width: 576px) {
+      .single-blog-section .tags .tags-items button {
+        display: inline-block; } }
+
+.contact-form-section {
+  padding: 10rem 0; }
+  .contact-form-section .contact-form-title {
+    font-family: "Playfair", serif;
+    margin-bottom: 3.4rem; }
+  .contact-form-section .form-group {
+    margin-bottom: 1.4rem; }
+    .contact-form-section .form-group button {
+      border: 1px solid #000000;
+      margin-top: 0.8rem;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      font-weight: 500; }
+    .contact-form-section .form-group .form-control {
+      background-color: #F5F5F5;
+      line-height: 2.8rem;
+      font-size: 1.4rem;
+      font-weight: 300; }
+  .contact-form-section .contact-section-map iframe {
+    width: 100%;
+    height: 509px; }
+
+.info-section {
+  padding: 7.4rem 0;
+  margin-bottom: 10.5rem; }
+  .info-section .info-section-data .info-section-data-item {
+    font-size: 1.4rem;
+    line-height: 2.4rem; }
+    .info-section .info-section-data .info-section-data-item a {
+      text-decoration: none;
+      color: #000; }
+
+.about-section-image {
+  margin-bottom: 4.8rem; }
+
+.topnav {
+  margin-bottom: 3.8rem; }
+  .topnav input {
+    border: 1px solid black;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500; }
+  .topnav .lens {
+    position: relative;
+    bottom: 40px;
+    left: 8px; }
+
+.services-single-section .trends-section-item {
+  position: relative;
+  margin-bottom: 15rem; }
+  .services-single-section .trends-section-item .trends-item-data-date {
+    font-size: 1.4rem; }
+  .services-single-section .trends-section-item .trends-item-title {
+    padding: 0 2.5rem 3rem;
+    font-size: 1.6rem;
+    text-decoration: none; }
+  .services-single-section .trends-section-item .trends-item-data {
+    margin: 0.6rem 2.5rem;
+    position: absolute;
+    left: 7rem;
+    right: 7rem;
+    top: 15.9rem;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .services-single-section .trends-section-item .trends-item-data {
+        top: 19rem;
+        left: 16rem;
+        right: 16rem; } }
+    @media (min-width: 992px) {
+      .services-single-section .trends-section-item .trends-item-data {
+        top: 15.9rem;
+        left: 1.5rem;
+        right: 1.5rem; } }
+    .services-single-section .trends-section-item .trends-item-data .trends-item-image {
+      text-decoration: none;
+      color: #000; }
+      .services-single-section .trends-section-item .trends-item-data .trends-item-image:hover {
+        color: #0d6efd; }
 
 /*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,75 @@
+.about-section-image{
+    margin-bottom: 4.8rem;
+}
+
+.topnav{
+    margin-bottom: 3.8rem;
+    input{
+        border: 1px solid rgba(0, 0, 0, 1);
+        width: 100%;
+        padding: 1.5rem 3rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 500;
+    }
+    
+    .lens{
+        position: relative;
+        bottom: 40px;
+        left: 8px;
+    }
+}
+
+
+.services-single-section{
+
+    .trends-section-item{
+        position: relative;
+        margin-bottom: 15rem;
+        .trends-item-data-date{
+            font-size: 1.4rem;
+        }
+
+        .trends-item-title{
+            padding: 0 2.5rem 3rem;
+            font-size: 1.6rem;
+            text-decoration: none;
+
+        }
+
+        .trends-item-data{
+            margin: 0.6rem 2.5rem;
+            position: absolute;
+            left: 7rem;
+            right: 7rem;
+            top: 15.9rem;
+            background-color: #fff;
+
+            @media(min-width:768px){
+                top: 19rem;
+                left: 16rem;
+                right: 16rem;
+            }
+
+            @media(min-width: 992px){
+                top: 15.9rem;
+                left: 1.5rem;
+                right: 1.5rem;
+            }
+
+            .trends-item-image{
+                text-decoration: none;
+                color: #000;
+                &:hover{
+                    color: $primary;
+                }
+            }
+
+
+        }
+    }
+
+
+}
+
+

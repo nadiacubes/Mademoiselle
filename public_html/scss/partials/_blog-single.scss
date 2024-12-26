@@ -1,0 +1,44 @@
+.data-date{
+    p{
+        display: inline-block;
+        margin-left: 1.2rem;
+        line-height: 4.6rem;
+        font-size: 1.4rem;
+        &:first-of-type{
+            margin-left: 0;
+        }
+    }
+}
+
+.single-blog-section{
+    padding: 0 5rem;
+    @media(min-width: 992px){
+        padding: 0 19rem;
+    }
+    margin-bottom: 22.7rem;
+    .single-blog-data{
+        margin-bottom: 4.7rem;
+    }
+    .tags{
+        .tags-title{
+            font-size: 1.4rem;
+            line-height: 4.6rem;
+            font-family: $playfair;
+
+        }
+        .tags-items{
+            button{
+                margin-right: 1.2rem;
+                padding: 0.7rem 2.2rem;
+                font-size: 1.4rem;
+                line-height: 2.4rem;
+                font-weight: 500;
+                background-color: $item-bg-grey;
+                display: block;
+                @media(min-width: 576px){
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
