@@ -9557,6 +9557,11 @@ header {
       @media (min-width: 768px) {
         .services-section .services-item .services-section-data {
           padding: 0 7.1rem; } }
+      .services-section .services-item .services-section-data a {
+        text-decoration: none;
+        color: #000; }
+        .services-section .services-item .services-section-data a:hover {
+          color: #0d6efd; }
       .services-section .services-item .services-section-data .services-item-title {
         margin-bottom: 4.2rem;
         line-height: 4.6rem;
@@ -9586,12 +9591,12 @@ header {
     .profesionals-section .profesionals-item .profesionals-item-data .profesionals-item-description {
       font-weight: 300;
       display: -webkit-box;
-      -webkit-line-clamp: 4;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden; }
       @media (min-width: 992px) {
         .profesionals-section .profesionals-item .profesionals-item-data .profesionals-item-description {
-          -webkit-line-clamp: 8; } }
+          -webkit-line-clamp: 6; } }
 
 footer .social {
   margin-bottom: 2.7rem; }
@@ -9761,5 +9766,15 @@ footer .copyright {
       color: #000; }
       .services-single-section .trends-section-item .trends-item-data .trends-item-image:hover {
         color: #0d6efd; }
+
+.home-section .eror-title {
+  margin-bottom: 5.9rem; }
+
+.home-section .eror-button {
+  padding: 1.6rem 2.7rem;
+  font-family: "Lato", serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 500; }
 
 /*# sourceMappingURL=theme.css.map */

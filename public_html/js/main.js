@@ -32,14 +32,17 @@ $(document).ready(function(){
                 $(element).addClass('is-valid').removeClass('is-invalid');
             },
             rules: {
-                name: {
+                contact_name: {
                     required: true
                 },
-                email: {
+                contact_email: {
                     required: true,
                     email: true
+                }, 
+                contact_subject: {
+                    required: true
                 },
-                message: {
+                contact_message: {
                     required: true
                 }
             },
@@ -50,6 +53,9 @@ $(document).ready(function(){
                 email: {
                     required: 'The Email* field is required',
                     email: 'Please provide a valid email address'
+                },
+                subject: {
+                    required: 'The Subject* field is required'
                 },
                 message: {
                     required: 'The Message* field is required'

@@ -17,6 +17,14 @@ $pink: #ECD9D9;
             @media(min-width: 768px){
                 padding: 0 7.1rem;
             }
+            
+            a{
+                text-decoration: none;
+                color: #000;
+                &:hover{
+                    color: $primary;
+                }
+            }
             .services-item-title{
                 margin-bottom: 4.2rem;
                 line-height: 4.6rem;

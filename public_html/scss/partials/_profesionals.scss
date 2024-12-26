@@ -18,11 +18,11 @@ $light-pink: #D0B6B666;
             .profesionals-item-description{
                 font-weight: 300;
                 display: -webkit-box;
-                -webkit-line-clamp: 4;
+                -webkit-line-clamp: 3;
                 -webkit-box-orient: vertical;
                 overflow: hidden;
                 @media(min-width: 992px){
-                    -webkit-line-clamp: 8;
+                    -webkit-line-clamp: 6;
                 }
             }
         }
