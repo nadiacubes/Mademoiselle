@@ -1,4 +1,62 @@
 .trends-section{
+    padding: 0 0 9.7rem;
+    .trends-section-title{
+        margin-bottom: 2.8rem;
+        font-family: $playfair;
+    }
+
+    .trends-section-item{
+        position: relative;
+        margin-bottom: 4rem;
+        @media(min-width: 768px){
+            margin-bottom: 10rem;
+        }
+        .trends-item-data-date{
+            font-size: 1.4rem;
+        }
+        .trends-item-image{
+            margin-bottom: 9rem;
+        }
+
+        .trends-item-title{
+            padding: 0 2.5rem 3rem;
+            font-size: 1.6rem;
+
+        }
+
+        .trends-item-data{
+            position: absolute;
+            left: 2rem;
+            right: 2rem;
+            top: 15.9rem;
+            background-color: #fff;
+
+            @media(min-width:576px){
+                top: 11rem;
+                left: 1.5rem;
+                right: 1.5rem;
+            }
+
+            @media(min-width: 768px){
+                top: 15.9rem;
+                left: 2.7rem;
+                right: 2.7rem;
+            }
+
+
+        }
+        .single-trend-link{
+            text-decoration: none;
+            color: #000;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+
+
+.trends-section{
     .pagination {
         display: block;
         text-align: center;
@@ -6,16 +64,16 @@
     }
 
     .pagination a {
-        color: rgba(0, 0, 0, 0.5);    
+        color: rgba(0, 0, 0, 0.5);
         padding: 8px 16px;
         text-decoration: none;
         font-family: $lato;
         font-size: 2rem;
-        line-height: 4.6rem;        
+        line-height: 4.6rem;
     }
-    
+
     .pagination a.active{
-        color: rgba(0, 0, 0, 1); 
+        color: rgba(0, 0, 0, 1);
     }
 }
 

@@ -19,11 +19,11 @@ $light-pink: #D0B6B666;
             }
             .services-single-item-description{
                 display: -webkit-box;
-                -webkit-line-clamp: 6;
+                -webkit-line-clamp: 4;
                 -webkit-box-orient: vertical;
                 overflow: hidden;
                 @media(min-width: 992px){
-                    -webkit-line-clamp: 12;
+                    -webkit-line-clamp: 10;
                 }
             }
         }
